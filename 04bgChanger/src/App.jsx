@@ -4,9 +4,11 @@ function App() {
  const [color, setcolor] = useState("plum")
 
   return (
+  
     <div className="w-full h-screen duration-200" 
     style={{backgroundColor:color}}
     >
+      <h1 className="text-3xl font-bold underline flex items-center justify-center h-screen">Color Changing Website</h1>
        <div className="fixed flex flex-wrap 
        justify-center bottom-12 inset-x-0 px-2">
        <div className="flex flex-wrap justify-center gap-3
